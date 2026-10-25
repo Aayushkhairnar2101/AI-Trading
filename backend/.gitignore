@@ -1,0 +1,22 @@
+# Environment & Credentials
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/

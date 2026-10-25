@@ -1,0 +1,30 @@
+# Environment & Secrets (NEVER COMMIT)
+.env
+*.env
+backend/.env
+frontend/.env
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# Python / Backend
+backend/venv/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite3
+
+# Logs & Caches
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
